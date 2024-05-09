@@ -6,7 +6,7 @@ import Home from "./component/Home";
 import Navbar from "./component/Navbar";
 import Services from "./component/Services";
 import Team from "./component/Team";
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; 
 
 function App() {
   return (
