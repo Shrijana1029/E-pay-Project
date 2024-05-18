@@ -6,7 +6,7 @@ function Navbar() {
 
     <nav class="flex px-1 border-b md:shadow-lg items-center relative">
         <div class="text-lg font-bold md:py-0 py-8 px-3 ">
-        <h2><b></b><span class="badge bg-teal-500 text-Dark fs-8">E-pay</span></h2>
+        <h2><b></b><span  class="badge bg-teal-500 text-Dark fs-8">E-pay</span></h2>
         
         </div>
         <ul class="md:px-1 ml-auto md:flex md:space-x-1 absolute md:relative top-full left-0 right-0">
@@ -40,11 +40,11 @@ function Navbar() {
             </li>
             </NavLink>
             
-            <NavLink to={"/services"}>
+            <NavLink to={"/WaterBillEnquiry"}>
             <li>
             
             <a href="#" class="flex md:inline-flex p-4 items-center hover:bg-green-60">
-                    <span>Services</span>
+                    <span>WaterBillEnquiry</span>
                 </a>
             </li>
             </NavLink>

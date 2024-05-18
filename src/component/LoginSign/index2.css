@@ -21,7 +21,7 @@
   }
   
   .login-left img{
-    width: 400px;
+    width: 700px;
   }
   
   .login-right{
@@ -150,9 +150,9 @@
   }
   
   .login-center-buttons button:nth-child(1){
-    background-color: black;
+    background-color: rgb(27, 168, 173);
     color: white;
-    border: 3px solid black;
+    border: 3px rgb(27, 168, 173);
   }
   
   .login-center-buttons button:nth-child(1):hover{

@@ -6,6 +6,7 @@ import GoogleSvg from "../assets/icons8-google.svg";
 import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa6";
 import '../LoginSign/index2.css';
+import { Link } from "react-router-dom";
 
 
 const Login = () => {
@@ -23,8 +24,8 @@ const Login = () => {
             <img src={Logo} alt="" />
           </div>
           <div className="login-center">
-            <h2>Welcome back!</h2>
-            <p>Please enter your details</p>
+            <h2>Login to E-pay</h2>
+            <h5>Please enter your details</h5>
             <form>
               <input type="email" placeholder="Email" />
               <div className="pass-input-div">
@@ -37,26 +38,23 @@ const Login = () => {
                 <div className="remember-div">
                   <input type="checkbox" id="remember-checkbox" />
                   <label htmlFor="remember-checkbox">
-                    Remember for 30 days
+                    Remember Me
                   </label>
                 </div>
                 <a href="#" className="forgot-pass-link">
                   Forgot password?
                 </a>
               </div>
-              <div className="login-center-buttons">
-                <button type="button">Log In</button>
-                <button type="button">
-                  <img src={GoogleSvg} alt="" />
-                  Log In with Google
-                </button>
+              <div className="login-center-buttons ">
+                <button type="button" className="btn btn-info">Log In</button>
+                <p className="login-bottom-p">
+            Don't have an account? <Link to="/Register">Register here</Link>
+          </p>
               </div>
             </form>
           </div>
 
-          <p className="login-bottom-p">
-            Don't have an account? <a href="#">Register Up</a>
-          </p>
+         
         </div>
       </div>
     </div>
