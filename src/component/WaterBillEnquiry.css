@@ -1,0 +1,42 @@
+.container {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .card-header {
+    background-color:  rgb(27, 168, 173);
+    color: black;
+    padding: 1rem;
+    border-bottom: none;
+  }
+  
+  .card-body {
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: rgb(27, 168, 173);
+    border-color: rgb(27, 168, 173);
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  .small-input {
+    width: 50px;
+    height: 2px; /* Adjust the width as needed */
+  }
+  .logo-img {
+    width: 80px; /* Adjust the size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px; 
+  }
+  
+  
