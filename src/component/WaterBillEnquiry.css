@@ -18,6 +18,18 @@
   .form-group label {
     font-weight: bold;
   }
+  .logo-img1{
+    width: 270px; /* Adjust the size as needed */
+    height: 80px;
+    display: block;
+    margin: 0 auto 10px; 
+  }
+  .logo-img {
+    width: 80px; /* Adjust the size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px; 
+  }
   
   .btn-primary {
     background-color: rgb(27, 168, 173);
@@ -32,11 +44,6 @@
     width: 50px;
     height: 2px; /* Adjust the width as needed */
   }
-  .logo-img {
-    width: 80px; /* Adjust the size as needed */
-    height: auto;
-    display: block;
-    margin: 0 auto 10px; 
-  }
+ 
   
   

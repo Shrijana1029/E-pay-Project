@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./../component/WaterBillEnquiry.css"
-import water from "./../img/water.png"
-const WaterBillEnquiry = () => {
+import electricity from "./../img/electricity.png"
+const ElectricityBillEnquiry = () => {
   const [form, setForm] = useState({
     customerName: '',
     customerId: '',
@@ -29,7 +29,7 @@ const WaterBillEnquiry = () => {
     <div className="container mt-3">
       <div className="card">
         <div className="card-header text-center text-teal-500">
-        <img src={water} alt="Logo" className="logo-img" />
+        <img src={electricity} alt="Logo" className="logo-img1" />
           {/* <h2>Water-Bill-Enquiry</h2> */}
         </div>
         <div className="card-body">
@@ -119,4 +119,4 @@ const WaterBillEnquiry = () => {
   );
 };
 
-export default WaterBillEnquiry;
+export default ElectricityBillEnquiry;

@@ -7,6 +7,7 @@ import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa6";
 import '../LoginSign/index2.css';
 import { Link } from "react-router-dom";
+import Payment from "../Payment";
 
 
 const Login = () => {
@@ -46,7 +47,7 @@ const Login = () => {
                 </a>
               </div>
               <div className="login-center-buttons ">
-                <button type="button" className="btn btn-info">Log In</button>
+                <button type="button" className="btn btn-info"><Link to="/Payment" className="text-black">Log in</Link></button>
                 <p className="login-bottom-p">
             Don't have an account? <Link to="/Register">Register here</Link>
           </p>

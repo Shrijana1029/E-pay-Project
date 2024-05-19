@@ -4,10 +4,12 @@ import Login from "./component/LoginSign/Login";
 import Contact from "./component/Contact";
 import Home from "./component/Home";
 import Navbar from "./component/Navbar";
-import Services from "./component/Services";
+import ElectricityBillEnquiry from "./component/ElectricityBillEnquiry";
+// import Services from "./component/Services";
 import Team from "./component/Team";
 import WaterBillEnquiry from "./component/WaterBillEnquiry";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; 
+import Payment from "./component/Payment";
 
 function App() {
   return (
@@ -19,8 +21,9 @@ function App() {
       <Route path="/Login" element={ <Login /> } />
       <Route path="/team" element={ <Team /> } />
       <Route path="/Register" element={ <Register /> } />
-      <Route path="/WaterBillEnquiry" element={ <WaterBillEnquiry/ > } />
+      <Route path="/ElectricityBillEnquiry" element={ <ElectricityBillEnquiry /> } />
       <Route path="/contact" element={ <Contact /> } />
+      {/* <Route path="/WaterBillEnquiry" element={ <WaterBillEnquiry /> } /> */}
     </Routes>
     </>
   );

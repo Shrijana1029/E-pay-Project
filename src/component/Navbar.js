@@ -10,41 +10,43 @@ function Navbar() {
         
         </div>
         <ul class="md:px-1 ml-auto md:flex md:space-x-1 absolute md:relative top-full left-0 right-0">
-            <NavLink to={"/"}>
-            <li>
-                <a href="#" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
-                    <span>Home</span>
-                </a>
-            </li>
-            </NavLink>
+        <NavLink to={"/"}>
+    <li>
+        <a href="#" className="flex md:inline-flex p-4 items-center hover:bg-gray-50">
+            <span style={{ letterSpacing: '0.1em' }}>Home</span>
+        </a>
+    </li>
+</NavLink>
+
+
          
             <NavLink to={"/Login"}>
             <li>
                 <a href="#" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
-                    <span>Login</span>
+                    <span style={{ letterSpacing: '0.1em' }}>Login</span>
                 </a>
             </li>
             </NavLink>
             <NavLink to={"/Register"}>
             <li>
                 <a href="#" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
-                    <span>Register Here</span>
+                    <span style={{ letterSpacing: '0.1em' }}>Register Here</span>
                 </a>
             </li>
             </NavLink>
              <NavLink to={"/team"}>
             <li>
                 <a href="#" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
-                    <span>Team</span>
+                    <span style={{ letterSpacing: '0.1em' }}>Team</span>
                 </a>
             </li>
             </NavLink>
             
-            <NavLink to={"/WaterBillEnquiry"}>
+            <NavLink to={"/ElectricityBillEnquiry"}>
             <li>
             
             <a href="#" class="flex md:inline-flex p-4 items-center hover:bg-green-60">
-                    <span>WaterBillEnquiry</span>
+                    <span>ElectricityBillEnquiry</span>
                 </a>
             </li>
             </NavLink>
