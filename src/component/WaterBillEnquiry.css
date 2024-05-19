@@ -4,7 +4,7 @@
   }
   
   .card-header {
-    background-color:  rgb(27, 168, 173);
+    background-color:  black;
     color: black;
     padding: 1rem;
     border-bottom: none;
@@ -12,7 +12,7 @@
   
   .card-body {
     padding: 2rem;
-    background-color: #f8f9fa;
+    background-color: rgb(27, 168, 173);;
   }
   
   .form-group label {

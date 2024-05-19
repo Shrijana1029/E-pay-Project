@@ -13,7 +13,7 @@ function Navbar() {
         <NavLink to={"/"}>
     <li>
         <a href="#" className="flex md:inline-flex p-4 items-center hover:bg-gray-50">
-            <span style={{ letterSpacing: '0.1em' }}>Home</span>
+            <span style={{ letterSpacing: '0.1em' }}>HOME</span>
         </a>
     </li>
 </NavLink>
@@ -23,33 +23,33 @@ function Navbar() {
             <NavLink to={"/Login"}>
             <li>
                 <a href="#" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
-                    <span style={{ letterSpacing: '0.1em' }}>Login</span>
+                    <span style={{ letterSpacing: '0.1em' }}>LOGIN</span>
                 </a>
             </li>
             </NavLink>
             <NavLink to={"/Register"}>
             <li>
                 <a href="#" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
-                    <span style={{ letterSpacing: '0.1em' }}>Register Here</span>
+                    <span style={{ letterSpacing: '0.1em' }}>REGISTER </span>
                 </a>
             </li>
             </NavLink>
              <NavLink to={"/team"}>
             <li>
                 <a href="#" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
-                    <span style={{ letterSpacing: '0.1em' }}>Team</span>
+                    <span style={{ letterSpacing: '0.1em' }}>TEAM</span>
                 </a>
             </li>
             </NavLink>
             
-            <NavLink to={"/ElectricityBillEnquiry"}>
+            {/* <NavLink to={"/ForgetPassword"}>
             <li>
             
             <a href="#" class="flex md:inline-flex p-4 items-center hover:bg-green-60">
-                    <span>ElectricityBillEnquiry</span>
+                    <span>RecoveryPassword</span>
                 </a>
             </li>
-            </NavLink>
+            </NavLink> */}
         
         </ul>
         <div class="ml-auto md:hidden text-gray-500 cursor-pointer">

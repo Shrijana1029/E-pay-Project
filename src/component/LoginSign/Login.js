@@ -42,9 +42,12 @@ const Login = () => {
                     Remember Me
                   </label>
                 </div>
+                <Link to="/ForgetPassword">
                 <a href="#" className="forgot-pass-link">
-                  Forgot password?
+                Forget Password
                 </a>
+                </Link>
+                
               </div>
               <div className="login-center-buttons ">
                 <button type="button" className="btn btn-info"><Link to="/Payment" className="text-black">Log in</Link></button>
