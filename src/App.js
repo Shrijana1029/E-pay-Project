@@ -13,6 +13,7 @@ import Payment from "./component/Payment";
 import Admin from "./component/Admin";
 import ForgetPassword from "./component/LoginSign/ForgetPassword";
 import RecoveryPassword from "./component/LoginSign/RecoveryPassword";
+import FormComponent from "./component/FormComponent";
 
 function App() {
   return (
@@ -26,8 +27,13 @@ function App() {
       <Route path="/Register" element={ <Register /> } />
       <Route path="/Admin " element={ <Admin/> } />
       <Route path="/contact" element={ <Contact /> } />
+      <Route path="/Deposit" element={ <Deposit /> } />
       <Route path="/ForgetPassword" element={ <ForgetPassword/> } />
       <Route path="/RecoveryPassword" element={ <RecoveryPassword/> } />
+      <Route path="/WaterBillEnquiry" element={ <WaterBillEnquiry/> } />
+      <Route path="/ElectricityBillEnquiry" element={ <ElectricityBillEnquiry/> } />
+      <Route path="/FormComponent" element={ <FormComponent/> } />
+
     </Routes>
     </>
   );

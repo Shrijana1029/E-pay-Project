@@ -34,7 +34,7 @@ function Navbar() {
                 </a>
             </li>
             </NavLink>
-             <NavLink to={"/team"}>
+             <NavLink to={"/FormComponent"}>
             <li>
                 <a href="#" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
                     <span style={{ letterSpacing: '0.1em' }}>TEAM</span>

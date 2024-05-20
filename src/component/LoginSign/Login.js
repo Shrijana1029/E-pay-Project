@@ -44,13 +44,15 @@ const Login = () => {
                 </div>
                 <Link to="/ForgetPassword">
                 <a href="#" className="forgot-pass-link">
-                Forget Password
+                Forget Password??
                 </a>
                 </Link>
                 
               </div>
               <div className="login-center-buttons ">
-                <button type="button" className="btn btn-info"><Link to="/Payment" className="text-black">Log in</Link></button>
+              <Link to="/ElectricityBillEnquiry" className="text-black">
+                <button type="button" className="btn btn-info">Log in</button>
+                </Link>
                 <p className="login-bottom-p">
             Don't have an account? <Link to="/Register">Register here</Link>
           </p>
