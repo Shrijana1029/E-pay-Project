@@ -115,7 +115,7 @@ const WaterBillEnquiry = () => {
           </form>
         </div>
       </div>
-    </div>
+    </div>  
   );
 };
 
